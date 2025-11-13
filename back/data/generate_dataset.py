@@ -112,8 +112,8 @@ def main():
             time.sleep(0.5)
 
     df = pd.DataFrame(data)
-    df.to_csv("back\data\musics.csv", index=False, encoding="utf-8")
-    print("\n✅ Dataset salvo em musics.csv")
+    df.to_csv("back\data\unprocessed_musics.csv", index=False, encoding="utf-8")
+    print("\n✅ Dataset salvo em unprocessed_musics.csv")
 
 if __name__ == "__main__":
     main()
