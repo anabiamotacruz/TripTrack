@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic
+torch
+torchvision
+transformers
+pillow
+numpy
+pandas
